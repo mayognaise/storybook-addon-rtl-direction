@@ -1,3 +1,16 @@
+# v0.0.11 (Tue Sep 27 2022)
+
+#### ⚠️ Pushed to `main`
+
+- Merge branch 'main' of https://github.com/mayognaise/storybook-addon-rtl-direction ([@mayognaise](https://github.com/mayognaise))
+- move fill="currentColor" to path ([@mayognaise](https://github.com/mayognaise))
+
+#### Authors: 1
+
+- Mayo Tobita ([@mayognaise](https://github.com/mayognaise))
+
+---
+
 # v0.0.9 (Tue Sep 27 2022)
 
 #### ⚠️ Pushed to `main`
