@@ -2,7 +2,7 @@
 
 An addon to toggle between ltr and rtl mode.
 
-`ltr` or `rtl` class will be added to `body` tag with `←` icon in tool section.
+`direction: ltr` or `direction: rtl` style will be added to `body` tag with `←` icon in tool section.
 
 ## Installation
 

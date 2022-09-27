@@ -5,13 +5,8 @@ export const withGlobals: DecoratorFunction = (StoryFn) => {
   const [{ rtlDirection }] = useGlobals();
 
   useEffect(() => {
-    if (rtlDirection) {
-      document.body.classList.add("rtl");
-      document.body.classList.remove("ltr");
-    } else {
-      document.body.classList.add("ltr");
-      document.body.classList.remove("rtl");
-    }
+    const direction = rtlDirection ? "rtl" : "ltr";
+    document.body.style.setProperty("direction", direction);
   }, [rtlDirection]);
 
   return StoryFn();
