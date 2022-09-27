@@ -1,3 +1,15 @@
+# v0.0.12 (Mon Sep 26 2022)
+
+#### ⚠️ Pushed to `main`
+
+- Revise (tobimayo@gmail.com)
+
+#### Authors: 1
+
+- Mayo Tobita (tobimayo@gmail.com)
+
+---
+
 # v0.0.11 (Mon Sep 26 2022)
 
 #### ⚠️ Pushed to `main`
