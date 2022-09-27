@@ -21,12 +21,9 @@ export const Tool = () => {
       title={`Turn ${rtlDirection ? "off" : "on"} RTL`}
       onClick={toggleMyTool}
     >
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        viewBox="0 0 14 14"
-        fill="currentColor"
-      >
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14">
         <path
+          fill="currentColor"
           d={
             rtlDirection
               ? `M4.2 10.9 2.9 7.4H2v3.5H1V3.1h2.9l.6.4.5.6a3.1 3.1 0 0 1 .1 1A2.8 2.8 0 0 1 5 6l-.3.6-.4.4-.5.2 1.5 3.7zm0-5.6a1.4 1.4 0 0 0-.2-.7.5.5 0 0 0-.2-.4L3.4 4H2v2.6h.9a1.2 1.2 0 0 0 .9-.3 1.8 1.8 0 0 0 .4-1zM7.7 4v6.9h-1V4H5.2v-.9h4V4zm2.1 6.9V3.1h1V10H13v.9z`
