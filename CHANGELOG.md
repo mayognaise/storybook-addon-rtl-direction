@@ -1,3 +1,15 @@
+# v0.0.7 (Tue Sep 27 2022)
+
+#### ⚠️ Pushed to `main`
+
+- feat: add dir attribute to body for reference ([@mayognaise](https://github.com/mayognaise))
+
+#### Authors: 1
+
+- Mayo Tobita ([@mayognaise](https://github.com/mayognaise))
+
+---
+
 # v0.0.6 (Tue Sep 27 2022)
 
 #### ⚠️ Pushed to `main`
