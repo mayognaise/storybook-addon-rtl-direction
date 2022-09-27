@@ -11,6 +11,19 @@
 
 ---
 
+# v0.0.8 (Mon Sep 26 2022)
+
+#### ⚠️ Pushed to `main`
+
+- Update icon ([@mayognaise](https://github.com/mayognaise))
+- Update README.md ([@mayognaise](https://github.com/mayognaise))
+
+#### Authors: 1
+
+- Mayo Tobita ([@mayognaise](https://github.com/mayognaise))
+
+---
+
 # v0.0.7 (Tue Sep 27 2022)
 
 #### ⚠️ Pushed to `main`
