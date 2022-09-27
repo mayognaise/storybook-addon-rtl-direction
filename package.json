@@ -1,5 +1,5 @@
 {
-  "name": "storybook-addon-rtl",
+  "name": "storybook-addon-rtl-direction",
   "version": "0.0.0",
   "description": "An addon to toggle between ltr and rtl mode",
   "keywords": [
@@ -7,7 +7,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/mayognaise/storybook-addon-rtl"
+    "url": "https://github.com/mayognaise/storybook-addon-rtl-direction"
   },
   "author": "mayognaise<tobimayo@gmail.com>",
   "license": "MIT",
