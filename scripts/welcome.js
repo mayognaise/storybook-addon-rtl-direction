@@ -82,7 +82,7 @@ const questions = [
 
 const REPLACE_TEMPLATES = {
   packageName: "storybook-addon-kit",
-  addonDescription: "everything you need to build a Storybook addon",
+  addonDescription: "An addon to toggle between ltr and rtl mode",
   packageAuthor: "package-author",
   repoUrl: "https://github.com/storybookjs/storybook-addon-kit",
   keywords: `"storybook-addons"`,

@@ -1,15 +1,15 @@
 {
-  "name": "storybook-addon-kit",
+  "name": "storybook-addon-rtl",
   "version": "0.0.0",
-  "description": "everything you need to build a Storybook addon",
+  "description": "An addon to toggle between ltr and rtl mode",
   "keywords": [
     "storybook-addons"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/storybookjs/storybook-addon-kit"
+    "url": "https://github.com/mayognaise/storybook-addon-rtl"
   },
-  "author": "package-author",
+  "author": "mayognaise<tobimayo@gmail.com>",
   "license": "MIT",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",

@@ -4,20 +4,20 @@ import { Icons, IconButton } from "@storybook/components";
 import { TOOL_ID } from "./constants";
 
 export const Tool = () => {
-  const [{ myAddon }, updateGlobals] = useGlobals();
+  const [{ rtlDirection }, updateGlobals] = useGlobals();
 
   const toggleMyTool = useCallback(
     () =>
       updateGlobals({
-        myAddon: myAddon ? undefined : true,
+        rtlDirection: rtlDirection ? undefined : true,
       }),
-    [myAddon]
+    [rtlDirection]
   );
 
   return (
     <IconButton
       key={TOOL_ID}
-      active={myAddon}
+      active={rtlDirection}
       title="Enable my addon"
       onClick={toggleMyTool}
     >
@@ -25,7 +25,7 @@ export const Tool = () => {
         Checkout https://next--storybookjs.netlify.app/official-storybook/?path=/story/basics-icon--labels
         for the full list of icons
       */}
-      <Icons icon="lightning" />
+      <Icons icon="arrowleftalt" />
     </IconButton>
   );
 };
