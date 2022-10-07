@@ -1,6 +1,6 @@
 {
   "name": "storybook-addon-rtl-direction",
-  "version": "0.0.13",
+  "version": "0.0.14",
   "description": "An addon to toggle between ltr and rtl mode",
   "keywords": [
     "storybook-addons",
