@@ -1,3 +1,15 @@
+# v0.0.15 (Fri Oct 07 2022)
+
+#### ⚠️ Pushed to `main`
+
+- Update package.json ([@mayognaise](https://github.com/mayognaise))
+
+#### Authors: 1
+
+- Mayo Tobita ([@mayognaise](https://github.com/mayognaise))
+
+---
+
 # v0.0.14 (Fri Oct 07 2022)
 
 #### ⚠️ Pushed to `main`
