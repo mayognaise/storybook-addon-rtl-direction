@@ -1,3 +1,15 @@
+# v0.0.16 (Sat Oct 08 2022)
+
+#### ⚠️ Pushed to `main`
+
+- Update readme ([@mayognaise](https://github.com/mayognaise))
+
+#### Authors: 1
+
+- Mayo Tobita ([@mayognaise](https://github.com/mayognaise))
+
+---
+
 # v0.0.15 (Fri Oct 07 2022)
 
 #### ⚠️ Pushed to `main`
