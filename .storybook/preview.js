@@ -7,6 +7,7 @@ export const globalTypes = {
       icon: "globe",
       items: [
         { value: "en-US", right: "LTR", title: "English (United States)" },
+        { value: "es", right: "LTR", title: "Spanish" },
         { value: "ar", right: "RTL", title: "Arabic" },
         { value: "ar-OM", right: "RTL", title: "Arabic (Oman) RTL" },
         { value: "pa-IN", right: "LTR", title: "Punjabi (India)" },
