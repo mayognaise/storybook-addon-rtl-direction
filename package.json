@@ -1,7 +1,7 @@
 {
   "name": "storybook-addon-rtl-direction",
   "version": "0.0.15",
-  "description": "Toggle dir attribute between LTR and RTL in html tag in Storybook",
+  "description": "A Storybook tool add-on to toggle html dir attribute between LTR and RTL.",
   "keywords": [
     "storybook-addons",
     "ltr",
@@ -84,7 +84,7 @@
     "access": "public"
   },
   "storybook": {
-    "displayName": "RTL Direction",
+    "displayName": "LTR / RTL",
     "supportedFrameworks": [
       "react",
       "vue",
@@ -97,6 +97,6 @@
       "aurelia",
       "marionette"
     ],
-    "icon": "https://user-images.githubusercontent.com/321738/63501763-88dbf600-c4cc-11e9-96cd-94adadc2fd72.png"
+    "icon": "https://user-images.githubusercontent.com/588874/194686359-2621cd90-c5f3-4a89-8893-6d6bd2440527.png"
   }
 }
