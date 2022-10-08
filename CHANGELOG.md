@@ -1,3 +1,15 @@
+# v0.0.18 (Sat Oct 08 2022)
+
+#### ⚠️ Pushed to `main`
+
+- Clean up ([@mayognaise](https://github.com/mayognaise))
+
+#### Authors: 1
+
+- Mayo Tobita ([@mayognaise](https://github.com/mayognaise))
+
+---
+
 # v0.0.17 (Sat Oct 08 2022)
 
 #### ⚠️ Pushed to `main`
