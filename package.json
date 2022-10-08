@@ -1,6 +1,6 @@
 {
   "name": "storybook-addon-rtl-direction",
-  "version": "0.0.16",
+  "version": "0.0.17",
   "description": "A Storybook tool add-on to toggle html dir attribute between LTR and RTL.",
   "keywords": [
     "storybook-addons",
