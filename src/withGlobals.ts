@@ -1,15 +1,6 @@
 import { DecoratorFunction, useRef } from "@storybook/addons";
 import { useEffect, useGlobals, useParameter } from "@storybook/addons";
 
-const updateHtmlLang = (locale?: string) => {
-  const lang = document.documentElement.getAttribute("lang");
-  if (!locale) return lang;
-  if (lang !== locale) {
-    document.documentElement.setAttribute("lang", locale);
-  }
-  return locale;
-};
-
 interface Settings {
   // Collection for locales (e.g. "en", "en-US", "ar")
   autoLocales?: string[];
@@ -17,11 +8,19 @@ interface Settings {
   reload?: boolean;
 }
 
+const updateHtmlLang = (locale?: string, settings?: Settings) => {
+  const lang = document.documentElement.getAttribute("lang");
+  if (!locale || !settings) return lang;
+  if (lang !== locale) {
+    document.documentElement.setAttribute("lang", locale);
+  }
+  return locale;
+};
+
 export const withGlobals: DecoratorFunction = (StoryFn) => {
   const [{ rtlDirection, locale }, updateGlobals] = useGlobals();
-  const { autoLocales = [], reload }: Settings =
-    useParameter("rtlDirection") || {};
-  const { current: htmlLang } = useRef(updateHtmlLang(locale));
+  const settings: Settings = useParameter("rtlDirection");
+  const { current: htmlLang } = useRef(updateHtmlLang(locale, settings));
 
   useEffect(() => {
     const direction = rtlDirection ? "rtl" : "ltr";
@@ -43,8 +42,15 @@ export const withGlobals: DecoratorFunction = (StoryFn) => {
   }, []);
 
   useEffect(() => {
-    if (!locale || !autoLocales.length) return;
-
+    if (
+      !locale ||
+      !settings ||
+      !settings.autoLocales ||
+      !settings.autoLocales.length
+    ) {
+      return;
+    }
+    const { autoLocales, reload } = settings;
     const lang = locale.substring(0, 2);
     const isRtl = autoLocales.some((l) => {
       return l.indexOf("-") === -1 ? l === lang : l === locale;
@@ -58,6 +64,7 @@ export const withGlobals: DecoratorFunction = (StoryFn) => {
 
     // If reload is true and locale is different than html lang, refresh page
     if (reload && htmlLang !== locale) {
+      // Add delay to make sure to update rtlDirection to global variables
       setTimeout(() => {
         window.location.reload();
       }, 50);
