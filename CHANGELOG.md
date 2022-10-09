@@ -1,3 +1,16 @@
+# v0.0.19 (Sun Oct 09 2022)
+
+#### ⚠️ Pushed to `main`
+
+- Update README.md ([@mayognaise](https://github.com/mayognaise))
+- Add more locales for test ([@mayognaise](https://github.com/mayognaise))
+
+#### Authors: 1
+
+- Mayo Tobita ([@mayognaise](https://github.com/mayognaise))
+
+---
+
 # v0.0.18 (Sat Oct 08 2022)
 
 #### ⚠️ Pushed to `main`
